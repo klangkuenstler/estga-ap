@@ -25,10 +25,10 @@ def dia_da_semana(numero):
         return "Sábado"
     else:
         return f"Dia da semana ({numero}) inválido!"
-        exit()
 
-user_input
-print
+# Pedir input e comparar com as variaveis atribuidas acima
+dia_da_semana_int = (input("Introduza um numero de 1 a 7: "))
+print(dia_da_semana(dia_da_semana_int))
 
 
 
