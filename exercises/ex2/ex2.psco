@@ -1,0 +1,47 @@
+# 2025-10-01
+# '03_introducao_python.pdf' slide n27
+'''
+EXERCÍCIO
+▪ Desenvolva, usando pseudo-código, um programa que:
+    ▪ indique qual o dia da semana se for introduzido um número de 1 a 7 (primeiro dia da semana é domingo)
+    ▪ caso seja introduzido um número fora do intervalo, deve ser enviada a mensagem “Dia da semana (<número_introduzido>) inválido!”
+    ▪ Implemente o algoritmo usando a linguagem de programação Python e teste o seu correcto funcionamento
+'''
+
+1 == "domingo"
+2 == "segunda-feira"
+3 == "terca-feira"
+4 == "quarta-feira"
+5 == "quinta-feira"
+6 == "sexta-feira"
+7 == "sabado"
+
+inicio
+
+input("Introduza um numero de 1 a 7: ") == numDia
+
+se
+  (numDia < 1) ou (numDia > 7):
+    print("Dia da semana ({numDia}) inválido")
+
+senao
+  se
+    numDia == '1':
+      stringDia == 1
+    numDia == '2':
+      stringDia == 2
+    numDia == '3':
+      stringDia == 3
+    numDia == '4':
+      stringDia == 4
+    numDia == '5':
+      stringDia == 5
+    numDia == '6':
+      stringDia == 6
+    numDia == '7':
+      stringDia == 7
+
+  print("O dia da semana para o num {numDia} equivale a {stringDia}")
+
+senao
+  print("Dia da semana ({stringDia})")
