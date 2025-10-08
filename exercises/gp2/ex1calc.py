@@ -1,31 +1,6 @@
-print("*** Cálculo de áreas ***\nSelecione o polígono:\n1 - Retângulo\n2 - Triângulo\n3 - Círculo")
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
 
-operacao = input("> ")
-lado_maior = int(input("Introduza o lado maior: "))
-lado_menor = int(input("Introduza o lado menor: "))
+num3 = num1 + num2
 
-match operacao:
-    # retangulo
-    case '1':
-        resultado = lado_maior * lado_menor
-        resultado_string = f"{resultado}"
-        operacao_string = "retângulo"
-    # triangulo
-    case '2':
-        resultado = (lado_maior * lado_menor) / 2
-        resultado_string = f"{resultado}"
-        operacao_string = "triângulo"
-    # circulo
-    case '3':
-        lado_maior = int(input("Introduza o lado maior: "))
-        lado_menor = int(input("Introduza o lado menor: "))
-        raio = 
-        resultado = pi * raio ** 2
-        resultado_string = f"{resultado}"
-        operacao_string = "círculo"
-    # input nao 'int'
-    case _:
-        resultado = "Operacao invalida."
-
-
-print(f"O valor da área do " + operacao_string + " é: " + resultado_string)
+print(f"The sum of {num1} and {num2} is {num3}")
